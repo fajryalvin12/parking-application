@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ParkingSpace from "./pages/ParkingSpace";
 import Dashboard from "./pages/Dashboard";
 import Booking from "./pages/Booking";
-import ParkingSchema from "./pages/ParkingSchema";
+import DetailOrder from "./pages/DetailOrder";
 import AboutYukParkir from "./pages/AboutYukParkir";
 
 const arrayRouter = [
@@ -20,8 +20,8 @@ const arrayRouter = [
     element: <ParkingSpace />,
   },
   {
-    path: "/schema",
-    element: <ParkingSchema />,
+    path: "/detail",
+    element: <DetailOrder />,
   },
   {
     path: "/about",

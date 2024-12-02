@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
 
-const Dashboard = () => {
+const DetailOrder = () => {
   return (
     <>
       <div className="flex bg-gray-100">
@@ -11,4 +11,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default DetailOrder;
